@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nfy-example
+
+server:
+  port: 8080
+
