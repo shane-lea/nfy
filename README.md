@@ -9,7 +9,8 @@ nfy-starter是启动类
 3、新建包 eg.com.lz.module.system
 4、bis引入web依赖；新建测试controller
 5、主启动模块引入实现模块，对外提供API接口
-6、
+6、接入knife4j：访问地址 [http://ip:port/doc.html]
+
 
 
 

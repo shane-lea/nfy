@@ -17,7 +17,7 @@
         <revision>1.0.0-SNAPSHOT</revision>
         <!-- 统一依赖管理 -->
         <spring.boot.version>2.5.12</spring.boot.version>
-
+        <knife4.version>4.4.0</knife4.version>
     </properties>
 
     <!--统一依赖管理-->
@@ -37,6 +37,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
+                <version>${knife4.version}</version>
             </dependency>
         </dependencies>
 

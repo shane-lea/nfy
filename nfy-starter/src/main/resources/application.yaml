@@ -5,3 +5,22 @@ spring:
 server:
   port: 8080
 
+knife4j:
+  enable: true
+  openapi:
+    title: 业务系统接口文档
+    description: "xxx 系统接口接口文档描述"
+    email: lizhiup@gmail.com
+    concat: nfy
+    version: v4.0
+    group:
+      key1:
+        group-name: Root接口
+        api-rule: package
+        api-rule-resources:
+          - com.nfy.controller
+      key2:
+        group-name: 系统接口
+        api-rule: package
+        api-rule-resources:
+          - com.nfy.module.system
