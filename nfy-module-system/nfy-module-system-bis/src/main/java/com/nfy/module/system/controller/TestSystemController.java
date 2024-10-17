@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/system")
 public class TestSystemController {
@@ -35,6 +37,12 @@ public class TestSystemController {
             return CommonResult.error(ErrorCodes.TEST_ERROR_CODE);
         }
         return CommonResult.success(input);
+    }
+
+    @GetMapping("/mybatis")
+    public CommonResult<List> testMybaits() {
+
+        return CommonResult.success(testService.testMybatis());
     }
 
 
