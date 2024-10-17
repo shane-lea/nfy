@@ -23,7 +23,7 @@ public class ValidationUtils {
         if (StrUtil.length(mobile) != 11) {
             return false;
         }
-        // TODO 芋艿，后面完善手机校验
+        // TODO 完善手机校验
         return true;
     }
 
