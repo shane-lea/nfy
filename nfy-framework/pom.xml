@@ -10,7 +10,9 @@
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
-    <description>....</description>
+    <modules>
+        <module>nfy-common</module>
+    </modules>
 
 
     <parent>

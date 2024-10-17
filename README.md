@@ -12,10 +12,8 @@ nfy-starter是启动类
 6、接入knife4j：访问地址 [http://ip:port/doc.html]
 7、测试service
 8、接入单元测试和jacoco扫描插件
-
-
-
-
+9、在framework中引入common模块
+10、
 
 
 

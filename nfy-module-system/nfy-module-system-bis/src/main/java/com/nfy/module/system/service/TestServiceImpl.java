@@ -9,10 +9,6 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public String toUpperCase(String var) {
-
-        if (StringUtils.isEmpty(var)) {
-            throw new RuntimeException("var is empty");
-        }
         return var.toUpperCase();
     }
 
