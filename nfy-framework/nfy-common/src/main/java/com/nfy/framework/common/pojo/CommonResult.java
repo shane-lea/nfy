@@ -1,19 +1,17 @@
 package com.nfy.framework.common.pojo;
 
+import cn.hutool.core.lang.Assert;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.nfy.framework.common.exception.ErrorCode;
 import com.nfy.framework.common.exception.ServiceException;
 import com.nfy.framework.common.exception.enums.GlobalErrorCodeConstants;
 import lombok.Data;
-import org.springframework.util.Assert;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 /**
  * 通用返回
- *
- * @param <T> 数据泛型
  */
 @Data
 public class CommonResult<T> implements Serializable {

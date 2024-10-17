@@ -14,4 +14,16 @@
     <name>nfy-module-system-api</name>
 
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.lz</groupId>
+            <artifactId>nfy-common</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+
+    </dependencies>
+
 </project>

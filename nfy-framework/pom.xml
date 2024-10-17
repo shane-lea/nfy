@@ -14,7 +14,6 @@
         <module>nfy-common</module>
     </modules>
 
-
     <parent>
         <groupId>com.lz</groupId>
         <artifactId>nfy</artifactId>
