@@ -47,6 +47,10 @@
             <artifactId>nfy-starter-mybatis</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.lz</groupId>
+            <artifactId>nfy-starter-token</artifactId>
+        </dependency>
 
 
     </dependencies>

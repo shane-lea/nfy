@@ -27,13 +27,13 @@
         <hutool6.version>6.0.0-M17</hutool6.version>
         <mybatis-plus.version>3.5.0</mybatis-plus.version>
         <mysql.version>5.1.46</mysql.version>
+        <druid.version>1.2.8</druid.version>
 
     </properties>
 
     <!--统一依赖管理-->
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>com.lz</groupId>
                 <artifactId>nfy-common</artifactId>
@@ -94,7 +94,11 @@
                 <version>${mysql.version}</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
 
             <!--测试框架-->
             <dependency>
