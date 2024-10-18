@@ -3,6 +3,7 @@ package com.nfy.module.system.controller;
 
 import com.nfy.framework.common.pojo.CommonResult;
 import com.nfy.module.system.api.enums.ErrorCodes;
+import com.nfy.module.system.model.entity.User;
 import com.nfy.module.system.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -40,12 +41,14 @@ public class TestSystemController {
     }
 
     @GetMapping("/mybatis")
-    public CommonResult<List> testMybaits() {
-
+    public CommonResult<List> testMybatis() {
         return CommonResult.success(testService.testMybatis());
     }
 
-
+    @GetMapping("/mapper")
+    public CommonResult<List<User>> testUserMapper(String userName) {
+        return CommonResult.success(testService.testUserMapper(userName));
+    }
 
 
 }

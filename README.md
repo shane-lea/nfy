@@ -12,8 +12,14 @@ nfy-starter是启动类
 6、接入knife4j：访问地址 [http://ip:port/doc.html]
 7、测试service
 8、接入单元测试和jacoco扫描插件
+    -- jacoco 代码覆盖不准，使用IDEA自带Coverage插件生成测试覆盖率报告
 9、在framework中引入common模块
 10、返回数据格式统一和全局以及业务异常引入
+11、多数据源的接入
+
+
+
+
 
 
 代码生成 / 多数据源
