@@ -1,8 +1,7 @@
-
 目录结构
 nfy 下的pom文件为 主pom文件 其他module都是此pom文件中modules的组成
 nfy-starter是启动类
-
+nfy
 
 1、新建system模块
 2、在system下新建api 和bis - bis依赖api
@@ -16,7 +15,7 @@ nfy-starter是启动类
 9、在framework中引入common模块
 10、返回数据格式统一和全局以及业务异常引入
 11、多数据源的接入
-
+12、sa-token接入
 
 
 

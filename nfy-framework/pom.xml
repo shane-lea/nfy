@@ -12,6 +12,7 @@
     <modules>
         <module>nfy-common</module>
         <module>nfy-starter-mybatis</module>
+        <module>nfy-starter-token</module>
     </modules>
 
     <parent>
