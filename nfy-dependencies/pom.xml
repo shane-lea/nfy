@@ -54,9 +54,6 @@
 
 
 
-
-
-
             <!-- Spring 核心 -->
             <dependency>
                 <!-- 用于生成自定义的 Spring @ConfigurationProperties 配置类的说明文件 -->
@@ -70,6 +67,14 @@
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring.boot.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
+
 
             <!--框架周边-->
             <dependency>

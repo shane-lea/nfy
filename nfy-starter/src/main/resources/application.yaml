@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: nfy-example
+  security:
+    user:
+      name: admin
+      password: admin
   datasource:
     dynamic:
       primary: master

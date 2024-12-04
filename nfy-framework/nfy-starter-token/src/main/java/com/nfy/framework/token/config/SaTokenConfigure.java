@@ -14,15 +14,15 @@ public class SaTokenConfigure implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
 
-        registry.addInterceptor(new SaInterceptor(
-                        handle -> SaRouter.match("/**")
-                                .notMatch("/*.html")
-                                .notMatch("/swagger-resources")
-                                .notMatch("/webjars/**")
-                                .notMatch("/**/api-docs")
-                                .check(r -> StpUtil.checkLogin())
-                )).addPathPatterns("/**")
-                .excludePathPatterns("/user/doLogin", "/user/isLogin", "/user/logout");
+//        registry.addInterceptor(new SaInterceptor(
+//                        handle -> SaRouter.match("/**")
+//                                .notMatch("/*.html")
+//                                .notMatch("/swagger-resources")
+//                                .notMatch("/webjars/**")
+//                                .notMatch("/**/api-docs")
+//                                .check(r -> StpUtil.checkLogin())
+//                )).addPathPatterns("/**")
+//                .excludePathPatterns("/user/doLogin", "/user/isLogin", "/user/logout" , "/system/*");
 
 
     }
